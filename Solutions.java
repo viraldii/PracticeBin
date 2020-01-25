@@ -10,7 +10,8 @@ public class Solutions {
 		//Storage variable
 		int num;
 		
-		input = JOptionPane.showInputDialog("Input number between 1 aand 100: ");
+		input = JOptionPane.showInputDialog("Input number between 1 "
+											+ "and 100: ");
 		//Parse users input
 		num = Integer.parseInt(input);
 		
@@ -58,6 +59,9 @@ public class Solutions {
 			}
 			
 		}
+		
+		//If number does not meet the requirements needed the program
+		// will inform the user to try again.
 		else
 			System.out.println("Number need to be between 1 and 100");
 	}
